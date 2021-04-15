@@ -87,10 +87,16 @@ body::before {
 
 @media (max-width: 440px) {
   .clock {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .quote {
-    color: red;
+    margin-top: -8px;
+    font-size: 8px;
+  }
+  .btn {
+    padding: 4px;
+    font-size: 8px;
+    margin-top: -20px;
   }
 }
